@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+  color: white;
+  padding: 30px 40px;
+  width: 100vw;
+  margin-left: calc(-1 * ((100vw - 100%) / 2));
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info {
+  flex: 1;
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.info p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #ccc;
+}
+
+.info a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: #66ccff;
+}
+
+/* Icon Colors */
+.info p i {
+  margin-right: 8px;
+}
+
+.info p i.fa-envelope {
+  color: orange;
+}
+
+.info p i.fa-phone {
+  color: lightgreen;
+}
+
+/* Profile Image */
+.profile-pic {
+  width: 120px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #373333;
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(1, 10, 60, 0.75);
+  color: #eee;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #999; /* Solid line between sections */
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  color: #f0f0f0;
+  border-bottom: 1px dotted #aaa; /* Dotted line below headings */
+}
+
+section ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+/* Resume + General Links */
+a {
+  color: #4facfe;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66ccff;
+  text-decoration: underline;
+}
+
+section a i {
+  margin-right: 6px;
+}
+
+/* Footer */
+.site-footer {
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  width: 100vw;
+  margin-left: calc(-1 * ((100vw - 100%) / 2));
+}
